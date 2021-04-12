@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Orange HRM</th></tr>
+<tr><td><a href="#t0">Run on CHROME UI</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">2</td><td class="num">110,400</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Orange HRM</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on CHROME UI &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User</td><td><a href="#m0">Employee_02_Edit_Employee_By_Personal</a></td><td rowspan="1">1617814678548</td><td rowspan="1">22769</td></tr><tr class="failedeven"><td><a href="#m1">Employee_07_Add_User_To_Employee</a></td><td rowspan="1">1617814701319</td><td rowspan="1">35679</td></tr><tr><th colspan="4">Run on CHROME UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User</td><td><a href="#m2">Employee_01_Add_Employee</a></td><td rowspan="1">1617814671939</td><td rowspan="1">6605</td></tr><tr class="passedeven"><td><a href="#m3">Employee_08_Search_User</a></td><td rowspan="1">1617814737001</td><td rowspan="1">28514</td></tr><tr class="passedeven"><td><a href="#m4">Employee_09_Delete_User</a></td><td rowspan="1">1617814765516</td><td rowspan="1">1445</td></tr><tr class="passedeven"><td><a href="#m5">Employee_10_Delete_Employee</a></td><td rowspan="1">1617814766962</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>Run on CHROME UI</h2><h3 id="m0">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_02_Edit_Employee_By_Personal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [12-11-1993] but found [1993-12-11]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:224)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:236)
+	at com.orangehrm.admin.Admin_01_Add_Edit_Employee_User.Employee_02_Edit_Employee_By_Personal(Admin_01_Add_Edit_Employee_User.java:168)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_07_Add_User_To_Employee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;message success&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.AbstractPage.waitToElementVisible(AbstractPage.java:437)
+	at pageObjects.UserDetailsPageObject.getSuccessMessageAtSystemUsersPage(UserDetailsPageObject.java:43)
+	at com.orangehrm.admin.Admin_01_Add_Edit_Employee_User.Employee_07_Add_User_To_Employee(Admin_01_Add_Edit_Employee_User.java:525)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;message success&apos;)]&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Haanhs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4ab:b520:eab2:bb90%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/3d/fzd6jyxn5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ac0cb51b88aa3cc89eb84635b97729c
+*** Element info: {Using=xpath, value=//div[contains(@class, &apos;message success&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_01_Add_Employee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_08_Search_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_09_Delete_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.orangehrm.admin.Admin_01_Add_Edit_Employee_User#Employee_10_Delete_Employee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
