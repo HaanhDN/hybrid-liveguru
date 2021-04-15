@@ -1,13 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:24,983] Pre-condition - Step 01: Click on Account menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:25,175] Pre-condition - Step 02: Open Log In Page from Account menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,155] Login 1 - Step 01: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,361] Login 1 - Step 02: Verify required error message displays at Email Address field
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,435]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,435] Login 1 - Step 03: Verify required error message displays at Password field
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,472]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,478] Login 2 - Step 01: Input Email Address textbox with value gmlogin123@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,737] Login 2 - Step 02: Input Password textbox with value '123'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,876] Login 3 - Step 03: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:26,975] Login 2 - Step 04: Verify validation error message displayes at Password field
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,027]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,031] Login 3 - Step 01: Input Email Address Textbox with value 'gmlogin123@gmail'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,189] Login 3 - Step 02: Input Password Textbox with value 123123
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,331] Login 3 - Step 03: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,443] Login 3 - Step 04: Verify validation error message displays at Email Adress field
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,493]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,496] Login 4 - Step 01: Input Email Address Textbox with value gmlogin123@gmail.com411254
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,642] Login 4 - Step 02: Input Password Textbox with value 123123933398
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:27,777] Login 4 - Step 03: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:29,173] Login 4 - Step 04: Verify error message displays under page title
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:29,205]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:29,209] Login 5 - Step 01: Input Email Address Textbox with value gmlogin123@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:29,459] Login 5 - Step 02: Input Password Textbox with value 123123
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:29,607] Login 5 - Step 03: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,104] Login 5 - Step 04: Verify My Dashboard page title displays
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,311]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,311] Login 5 - Step 05: Verify Welcome Message displays
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,371]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,373] OS name = mac os x
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-04-16 01:56:31,549] ---------- QUIT BROWSER SUCCESS ----------
+<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Orange HRM" duration-ms="110400" started-at="2021-04-07T16:57:36Z" finished-at="2021-04-07T16:59:27Z">
+  <suite name="LiveGuru" duration-ms="12444" started-at="2021-04-15T18:56:19Z" finished-at="2021-04-15T18:56:31Z">
     <groups>
     </groups>
-    <test name="Run on CHROME UI" duration-ms="110400" started-at="2021-04-07T16:57:36Z" finished-at="2021-04-07T16:59:27Z">
-      <class name="com.orangehrm.admin.Admin_01_Add_Edit_Employee_User">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="beforeClass" is-config="true" duration-ms="15158" started-at="2021-04-07T16:57:36Z" finished-at="2021-04-07T16:57:51Z">
+    <test name="Run on CHROME UI" duration-ms="12444" started-at="2021-04-15T18:56:19Z" finished-at="2021-04-15T18:56:31Z">
+      <class name="com.liveguru.users.User_02_Login">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="beforeClass" is-config="true" duration-ms="7028" started-at="2021-04-15T18:56:19Z" finished-at="2021-04-15T18:56:26Z">
           <params>
             <param index="0">
               <value>
@@ -16,150 +140,162 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com/index.php/dashboard]]>
+                <![CDATA[http://live.demoguru99.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:24,983] Pre-condition - Step 01: Click on Account menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:25,175] Pre-condition - Step 02: Open Log In Page from Account menu
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Employee_01_Add_Employee()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_01_Add_Employee" duration-ms="6605" started-at="2021-04-07T16:57:51Z" finished-at="2021-04-07T16:57:58Z">
+        <test-method status="PASS" signature="TC_01_Empty_Fields()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="TC_01_Empty_Fields" duration-ms="322" started-at="2021-04-15T18:56:26Z" finished-at="2021-04-15T18:56:26Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,155] Login 1 - Step 01: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,361] Login 1 - Step 02: Verify required error message displays at Email Address field
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,435]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,435] Login 1 - Step 03: Verify required error message displays at Password field
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,472]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Employee_01_Add_Employee -->
-        <test-method status="FAIL" signature="Employee_02_Edit_Employee_By_Personal()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_02_Edit_Employee_By_Personal" duration-ms="22769" started-at="2021-04-07T16:57:58Z" finished-at="2021-04-07T16:58:21Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [12-11-1993] but found [1993-12-11]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [12-11-1993] but found [1993-12-11]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:442)
-at commons.AbstractTest.checkEquals(AbstractTest.java:224)
-at commons.AbstractTest.verifyEquals(AbstractTest.java:236)
-at com.orangehrm.admin.Admin_01_Add_Edit_Employee_User.Employee_02_Edit_Employee_By_Personal(Admin_01_Add_Edit_Employee_User.java:168)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- TC_01_Empty_Fields -->
+        <test-method status="PASS" signature="TC_02_Correct_Email_Invalid_Password()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="TC_02_Correct_Email_Invalid_Password" duration-ms="551" started-at="2021-04-15T18:56:26Z" finished-at="2021-04-15T18:56:27Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,478] Login 2 - Step 01: Input Email Address textbox with value gmlogin123@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,737] Login 2 - Step 02: Input Password textbox with value '123'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,876] Login 3 - Step 03: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:26,975] Login 2 - Step 04: Verify validation error message displayes at Password field
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,027]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Employee_02_Edit_Employee_By_Personal -->
-        <test-method status="FAIL" signature="Employee_07_Add_User_To_Employee()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_07_Add_User_To_Employee" duration-ms="35679" started-at="2021-04-07T16:58:21Z" finished-at="2021-04-07T16:58:56Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'message success')] (tried for 30 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'message success')] (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at commons.AbstractPage.waitToElementVisible(AbstractPage.java:437)
-at pageObjects.UserDetailsPageObject.getSuccessMessageAtSystemUsersPage(UserDetailsPageObject.java:43)
-at com.orangehrm.admin.Admin_01_Add_Edit_Employee_User.Employee_07_Add_User_To_Employee(Admin_01_Add_Edit_Employee_User.java:525)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'message success')]"}
-  (Session info: chrome=89.0.4389.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'Haanhs-MacBook-Pro.local', ip: 'fe80:0:0:0:4ab:b520:eab2:bb90%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/3d/fzd6jyxn5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5ac0cb51b88aa3cc89eb84635b97729c
-*** Element info: {Using=xpath, value=//div[contains(@class, 'message success')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- TC_02_Correct_Email_Invalid_Password -->
+        <test-method status="PASS" signature="TC_03_Invalid_Email_Correct_Password()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="TC_03_Invalid_Email_Correct_Password" duration-ms="464" started-at="2021-04-15T18:56:27Z" finished-at="2021-04-15T18:56:27Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,031] Login 3 - Step 01: Input Email Address Textbox with value 'gmlogin123@gmail'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,189] Login 3 - Step 02: Input Password Textbox with value 123123
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,331] Login 3 - Step 03: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,443] Login 3 - Step 04: Verify validation error message displays at Email Adress field
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,493]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Employee_07_Add_User_To_Employee -->
-        <test-method status="PASS" signature="Employee_08_Search_User()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_08_Search_User" duration-ms="28514" started-at="2021-04-07T16:58:57Z" finished-at="2021-04-07T16:59:25Z">
+        </test-method> <!-- TC_03_Invalid_Email_Correct_Password -->
+        <test-method status="PASS" signature="TC_04_Incorrect_Password()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="TC_04_Incorrect_Password" duration-ms="1711" started-at="2021-04-15T18:56:27Z" finished-at="2021-04-15T18:56:29Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,496] Login 4 - Step 01: Input Email Address Textbox with value gmlogin123@gmail.com411254
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,642] Login 4 - Step 02: Input Password Textbox with value 123123933398
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:27,777] Login 4 - Step 03: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:29,173] Login 4 - Step 04: Verify error message displays under page title
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:29,205]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Employee_08_Search_User -->
-        <test-method status="PASS" signature="Employee_09_Delete_User()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_09_Delete_User" duration-ms="1445" started-at="2021-04-07T16:59:25Z" finished-at="2021-04-07T16:59:26Z">
+        </test-method> <!-- TC_04_Incorrect_Password -->
+        <test-method status="PASS" signature="TC_05_Correct_Email_And_Password()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="TC_05_Correct_Email_And_Password" duration-ms="2164" started-at="2021-04-15T18:56:29Z" finished-at="2021-04-15T18:56:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:29,209] Login 5 - Step 01: Input Email Address Textbox with value gmlogin123@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:29,459] Login 5 - Step 02: Input Password Textbox with value 123123
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:29,607] Login 5 - Step 03: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,104] Login 5 - Step 04: Verify My Dashboard page title displays
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,311]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,311] Login 5 - Step 05: Verify Welcome Message displays
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,371]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Employee_09_Delete_User -->
-        <test-method status="PASS" signature="Employee_10_Delete_Employee()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="Employee_10_Delete_Employee" duration-ms="2" started-at="2021-04-07T16:59:26Z" finished-at="2021-04-07T16:59:26Z">
+        </test-method> <!-- TC_05_Correct_Email_And_Password -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.liveguru.users.User_02_Login@3b0143d3]" name="afterClass" is-config="true" duration-ms="177" started-at="2021-04-15T18:56:31Z" finished-at="2021-04-15T18:56:31Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Employee_10_Delete_Employee -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orangehrm.admin.Admin_01_Add_Edit_Employee_User@7d907bac]" name="afterClass" is-config="true" duration-ms="192" started-at="2021-04-07T16:59:26Z" finished-at="2021-04-07T16:59:27Z">
-          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,373] OS name = mac os x
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-04-16 01:56:31,549] ---------- QUIT BROWSER SUCCESS ----------
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.orangehrm.admin.Admin_01_Add_Edit_Employee_User -->
+      </class> <!-- com.liveguru.users.User_02_Login -->
     </test> <!-- Run on CHROME UI -->
-  </suite> <!-- Orange HRM -->
+  </suite> <!-- LiveGuru -->
 </testng-results>

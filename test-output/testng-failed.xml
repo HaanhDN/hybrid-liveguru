@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Orange HRM]">
+<suite name="Failed suite [LiveGuru]">
   <listeners>
     <listener class-name="commons.MethodListener"/>
   </listeners>
   <test thread-count="5" name="Run on CHROME UI(failed)">
     <parameter name="browser" value="chrome_ui"/>
-    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/dashboard"/>
+    <parameter name="url" value="http://live.demoguru99.com/"/>
     <classes>
-      <class name="com.orangehrm.admin.Admin_01_Add_Edit_Employee_User">
+      <class name="com.liveguru.users.User_02_Login">
         <methods>
+          <include name="TC_05_Correct_Email_And_Password"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="Employee_07_Add_User_To_Employee"/>
-          <include name="Employee_02_Edit_Employee_By_Personal"/>
         </methods>
-      </class> <!-- com.orangehrm.admin.Admin_01_Add_Edit_Employee_User -->
+      </class> <!-- com.liveguru.users.User_02_Login -->
     </classes>
   </test> <!-- Run on CHROME UI(failed) -->
-</suite> <!-- Failed suite [Orange HRM] -->
+</suite> <!-- Failed suite [LiveGuru] -->
