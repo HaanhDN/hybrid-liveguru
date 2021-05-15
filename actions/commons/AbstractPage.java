@@ -128,6 +128,12 @@ public class AbstractPage {
 		element.sendKeys(value);
 	}
 	
+	public void sendkeyToElement(WebDriver driver, String locator, String value, String...values) {
+		element =  getElement(driver, getDynamicLocator(locator, values));
+		element.clear();
+		element.sendKeys(value);
+	}
+	
 	public void selectItemInDropdown (WebDriver driver, String locator, String itemValue) {
 		element =  getElement(driver, locator);
 		select = new Select(element);
@@ -171,6 +177,11 @@ public class AbstractPage {
 		return element.getAttribute(attributeName);
 	}
 	
+	public String getElementAttribute (WebDriver driver, String locator, String attributeName, String...values) {
+		WebElement element =  getElement(driver, getDynamicLocator(locator, values));
+		return element.getAttribute(attributeName);
+	}
+	
 	public String getElementText(WebDriver driver, String locator) {
 		WebElement element =  getElement(driver, locator);
 		return element.getText();
@@ -201,6 +212,10 @@ public class AbstractPage {
 	
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getElement(driver,locator).isDisplayed();
+	}
+	
+	public boolean isElementDisplayed(WebDriver driver, String locator, String...values) {
+		return getElement(driver, getDynamicLocator(locator, values)).isDisplayed();
 	}
 	
 	public boolean isElementUndisplayed(WebDriver driver, String locator, String... values) {
@@ -431,7 +446,10 @@ public class AbstractPage {
 		waitToElementClickable(driver, UsersAbstractPageUI.DYNAMIC_MY_ACCOUNT_MENU_PAGE, pageName);
 		clickOnElement(driver, UsersAbstractPageUI.DYNAMIC_MY_ACCOUNT_MENU_PAGE, pageName);
 	}
-	
+	public void openProductPageByTitle(WebDriver driver, String productTitle) {
+		waitToElementVisible(driver, UsersAbstractPageUI.PRODUCT_TITLE, productTitle);
+		clickOnElement(driver, UsersAbstractPageUI.PRODUCT_TITLE, productTitle);
+	}
 	private WebDriverWait explicitWait;
 	private JavascriptExecutor jsExecutor;
 	private WebElement element;
