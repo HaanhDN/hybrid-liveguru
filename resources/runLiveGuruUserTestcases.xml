@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="LiveGuru" parallel="false">
 
-<listeners>
+	<listeners>
 		<listener class-name="commons.MethodListener" />
-		<!-- <listener class-name="reportConfig.ExtentReportV4Listener" />
-		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
-	</listeners> 
-	
-	<test name="Run on CHROME UI"> <parameter name="browser" value="chrome_ui" />
-		<parameter name="url" value="http://live.demoguru99.com/"/>
+	</listeners>
+
+	<test name="Run on CHROME UI">
+		<parameter name="browser" value="chrome_ui" />
+		<parameter name="url" value="http://live.demoguru99.com/" />
 		<classes>
-			<!-- <class name="com.liveguru.users.User_01_Register" /> -->
-			<class name="com.liveguru.users.User_02_Login" />
+			<class name="com.liveguru.users.User_01_Register" /> 
+		 	<class name="com.liveguru.users.User_02_Login" />
+			<class name="com.liveguru.users.User_03_Product_Price_Display" />
+			<class name="com.liveguru.users.User_04_Purchase" />
 		</classes>
 
-  </test> <!-- Test -->
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
+

@@ -32,8 +32,8 @@ public class User_03_Product_Price_Display extends AbstractTest {
 		mobileProductPage = PageGeneratorManager.getUserMobileProductPage(driver);
 
 		log.info("Price Display - Step 02: Get price of 'Sony Xperia' mobile");
-		mobileProductPage.getSonyXperiaPriceOnProductPage("Sony Xperia");
-
+		String XperiaPriceProductPage = (String) mobileProductPage.getSonyXperiaPriceOnProductPage("Sony Xperia");
+		
 		log.info("Price Display - Step 03: Click on 'Sony Xperia' detail");
 		mobileProductPage.clickOnSonyXperiaProductName("Sony Xperia");
 		productDetailPage = PageGeneratorManager.getUserProductDetailPage(driver);
@@ -42,7 +42,7 @@ public class User_03_Product_Price_Display extends AbstractTest {
 		productDetailPage.getSonyXperiaPriceOnDetailPage();
 
 		log.info("Price Display - Step 05: Verify Price of 'Sony Xperia' in Product page & Detail page are equal");
-		verifyEquals(mobileProductPage.getSonyXperiaPriceOnProductPage("Sony Xperia"), productDetailPage.getSonyXperiaPriceOnDetailPage());
+		verifyEquals(XperiaPriceProductPage, productDetailPage.getSonyXperiaPriceOnDetailPage());
 
 	}
 

@@ -2,6 +2,9 @@ package com.liveguru.users;
 
 import org.testng.annotations.Test;
 
+import com.liveguru.usersdata.PurchaseData;
+import com.liveguru.usersdata.UserData;
+
 import commons.AbstractTest;
 import pageObjects.PageGeneratorManager;
 import pageObjects.UserCartPO;
@@ -219,6 +222,7 @@ public class User_04_Purchase extends AbstractTest {
 
 		log.info("Purchase - Step 17: Click 'Continue' button");
 		checkoutPage.clickBillingContinueButton();
+		
 
 		log.info("Purchase - Step 18: Verify Shipping method & Flat rate equals '" + PurchaseData.Order.FLAT_RATE + "'");
 		verifyEquals(checkoutPage.getShippingMethod(), "Flat Rate");
